@@ -1,0 +1,6 @@
+REM INSERTING into ADMIN.OFFICER
+SET DEFINE OFF;
+Insert into ADMIN.OFFICER (OFFICER_ID,END_DATE,FIRST_NAME,LAST_NAME,START_DATE,TITLE,CUST_ID) values (1,null,'John','Chilton',to_date('01-MAY-95','DD-MON-RR'),'President',10);
+Insert into ADMIN.OFFICER (OFFICER_ID,END_DATE,FIRST_NAME,LAST_NAME,START_DATE,TITLE,CUST_ID) values (2,null,'Paul','Hardy',to_date('01-JAN-01','DD-MON-RR'),'President',11);
+Insert into ADMIN.OFFICER (OFFICER_ID,END_DATE,FIRST_NAME,LAST_NAME,START_DATE,TITLE,CUST_ID) values (3,null,'Carl','Lutz',to_date('30-JUN-02','DD-MON-RR'),'President',12);
+Insert into ADMIN.OFFICER (OFFICER_ID,END_DATE,FIRST_NAME,LAST_NAME,START_DATE,TITLE,CUST_ID) values (4,null,'Stanley','Cheswick',to_date('01-MAY-99','DD-MON-RR'),'President',13);
